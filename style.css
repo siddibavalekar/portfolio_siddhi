@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.navBar{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-filter:blur(20px);
+	z-index: 1;
+	background-color:#CADCFC;
+
+}
+
+.logo{
+	font-family: cursive;
+	font-size:30px;
+	font-weight: bolder;
+	color:black;
+}
+
+ul.mymenus{
+	color:#d966ff;
+
+}
+
+.mymenus:hover{
+text-decoration: underline ;
+color: #d966ff;
+}
+
+
+.allsections{
+	margin-top: 60px;
+	position: relative;
+	width: 100%;
+	/*opacity: 0.7;*/
+	background-position: center;
+	background-size: cover;
+	/*height: 600px;*/
+	/*background-color:#eeeeee;#e80980*/
+}
+
+.sections{
+	width: 100%;
+	height: 100vh;
+	/*padding: 100px;*/
+
+}
+
+.page-heading{
+	/*margin-top:160px;*/
+	padding: 50px;
+	text-align: center;
+	font-family: serif;
+	letter-spacing: 2px;
+	color: #d966ff;
+	font-family: 'Abril Fatface', serif;
+	
+}
+
+/*home section*/
+
+.home-info{
+	display: flex;
+	height: 80%;
+	line-height: 20px;
+	margin-left: 30px;
+	margin-right: auto;
+	padding: 120px;
+	font-family: 'Abril Fatface', serif;
+	/*background-image: url(image_processing20210222-15618-1vb3fp9.gif);
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center;*/
+
+}
+
+.home-section{
+/*background-image: linear-gradient(to bottom,rgba(0, 0, 91, 0.2),rgba(0, 224, 217, 0.6)),
+url("https://cdn.create.vista.com/api/media/small/196564400/stock-photo-young-smiling-successful-smart-business-woman-student-light-casual-clothes.jpg");*/
+background-image: url("https://cdn.create.vista.com/api/media/small/196564400/stock-photo-young-smiling-successful-smart-business-woman-student-light-casual-clothes.jpg");
+/*background-size: 1100px 450px;*/
+height: 480px;
+width: 100%;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+/*opacity: 0.3;*/
+
+}
+
+.logo-n{
+	color: #00246B;
+}
+
+
+
+
+.home-img img{
+	height: 500px;
+	width: 100%;
+	
+	
+	margin-left: 50px;
+	/*padding: 20px;*/
+
+}
+
+.myname{
+		font-size: 50px;
+		word-spacing: 8px;
+		font-family: 'Abril Fatface', serif;
+		line-height: 30px;
+	}
+
+	.info-home h3,h4,h2{
+
+		
+		font-family: 'Abril Fatface', serif;
+		line-height: 70px;
+
+	}
+
+	.info-home h4{
+		line-height: 30px;
+
+	}
+
+
+/*home section end*/
+
+
+/*about section*/
+
+.about-info{
+	/*border-color: green;
+	border-style: solid;*/
+	display: flex;
+	height: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 25px;
+	
+}
+
+.about-section{
+	padding: 30px;
+}
+#about{
+	/*color: #20948B;*/
+}
+
+
+.myphoto{
+	/*border-color: pink;
+	border-style: solid;*/
+	width: 50%;
+
+}
+
+
+.myphoto img{
+
+	height: 400px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px;
+}
+
+.myabout{
+	text-align: justify;
+	/*border-color: blue;
+	border-style: solid;*/
+	word-spacing: 2px;
+	line-height: 30px;
+	text-indent: 40px;
+width: 50%;
+padding: 50px;
+}
+
+.myabout p{
+	margin-top: 50px;
+}
+
+/*about section end*/
+
+/*skill section start*/
+.card-skill{
+	
+}
+.card{
+	width: 50%;
+	padding: 30px;
+	margin-left: 150px;
+	height: 200px;
+	background-image: linear-gradient(to bottom ,#F9CAB6,#61f2ff);
+}
+
+/*skill section end*/
+
+/*project section*/
+.cards{
+	
+	border-color: red;
+	border-style: solid;
+	width: 370px;
+	padding: 30px;
+	margin-left: 70px;
+	height: 425px;
+}
+.cards img{
+	height: 200px;
+}
+
+.card-text{
+	font-size: 16px;
+}
+
+/*contact section start*/
+.contact-section{
+	border: none;
+	background-color: whitesmoke;
+	/*padding: 30px;*/
+}
+
+.cnt-tbl{
+	margin-top: 30px;
+}
+
+#inputEmail4{
+	width: 400px;
+}
+
+.form-row{
+	margin-left: 20px;
+}
+
+.e1{
+	margin-right: 100px;
+	/*margin-top: 20px;*/
+
+}
+
+
+.data1,.data2{
+	margin-left: 60px;
+	height: 50%
+	display:flex;
+}
+
+
+
+.myinfor,.contact-form{
+	width: 50%;
+	/*padding: 70px;*/
+	
+}
+
+.myinfor{
+	line-height: 50px;
+}
+
+.space{
+	margin-left: 20px;
+}
+
+#inputAddress{
+	width: 350px;
+	height: 150px;
+	margin-left: 25px;
+}
+#inputEmail4{
+
+	width: 350px;
+}
+
+.contact-info{
+	margin-bottom: 150px;
+}
+
+.home-section,.kenburns-top {
+	-webkit-animation: kenburns-top 5s ease-out both;
+	        animation: kenburns-top 5s ease-out both;
+}
+
+
+@-webkit-keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+}
+@keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+}
